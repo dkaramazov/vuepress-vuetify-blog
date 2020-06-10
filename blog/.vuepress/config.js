@@ -25,7 +25,7 @@ module.exports = {
     sidebar: {
       profile: {
         avatarUrl: 'https://avatars1.githubusercontent.com/u/9496430?s=460&v=4',
-        name: '_dkaramazov_',
+        name: 'dkaramazov',
         subTitle: 'Web Programmer',
         descriptionHtml: '<strong>web</strong> programmer cat.',
       },
@@ -40,7 +40,7 @@ module.exports = {
       links: [{ label: 'PROFILE', path: '/profile' }],
     },
     sns: {
-      twitter: 'https://twitter.com/dkaramazov',
+      twitter: 'https://twitter.com/_dkaramazov_',
       github: 'https://github.com/dkaramazov/vuepress-vuetify-blog/',
       feed: '',
     },
