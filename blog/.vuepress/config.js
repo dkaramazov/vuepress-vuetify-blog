@@ -18,6 +18,9 @@ module.exports = {
     ],
   ],
   themeConfig: {
+    globalPagination: {
+      lengthPerPage: 3,
+    },
     titleHtml: `<i class="fas fa-cat mr-2"></i><strong>just a test site with cats</strong>`,
     profile: {
       avatarUrl: 'https://avatars1.githubusercontent.com/u/9496430?s=460&v=4',
