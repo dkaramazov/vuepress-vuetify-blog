@@ -22,18 +22,20 @@ module.exports = {
       lengthPerPage: 3,
     },
     titleHtml: `<i class="fas fa-cat mr-2"></i><strong>just a test site with cats</strong>`,
-    profile: {
-      avatarUrl: 'https://avatars1.githubusercontent.com/u/9496430?s=460&v=4',
-      name: 'dkaramazov',
-      subTitle: 'Web Programmer',
-      descriptionHtml: '<strong>web</strong> programmer cat.',
-    },
-    additionalBlocks: [
-      {
-        title: 'Pages',
-        links: [{ label: 'PROFILE', path: '/profile' }],
+    sidebar: {
+      profile: {
+        avatarUrl: 'https://avatars1.githubusercontent.com/u/9496430?s=460&v=4',
+        name: '_dkaramazov_',
+        subTitle: 'Web Programmer',
+        descriptionHtml: '<strong>web</strong> programmer cat.',
       },
-    ],
+      additionalBlocks: [
+        {
+          title: 'Pages',
+          links: [{ label: 'PROFILE', path: '/profile' }],
+        },
+      ],
+    },
     footer: {
       links: [{ label: 'PROFILE', path: '/profile' }],
     },
