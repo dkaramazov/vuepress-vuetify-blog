@@ -1,0 +1,17 @@
+{
+  "name": "vuepress-vuetify-custom-theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev blog",
+    "build": "vuepress build blog"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/plugin-register-components": "^1.5.1",
+    "vuepress-theme-blog-vuetify": "^1.4.0"
+  }
+}
