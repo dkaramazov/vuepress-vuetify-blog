@@ -48,14 +48,7 @@ module.exports = {
     dateFormat: 'MM/DD/YYYY',
     components: {
       afterPage: 'MyAfterPage',
+      beforePage: 'Carousel',
     },
   },
-  plugins: [
-    [
-      'register-components',
-      {
-        componentsDir: 'components',
-      },
-    ],
-  ],
 };
