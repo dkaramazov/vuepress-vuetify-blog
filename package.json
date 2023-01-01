@@ -12,6 +12,6 @@
   "license": "ISC",
   "devDependencies": {
     "@vuepress/plugin-register-components": "^1.5.1",
-    "vuepress-theme-blog-vuetify": "^1.4.0"
+    "vuepress-theme-blog-vuetify": "^1.6.2"
   }
 }
